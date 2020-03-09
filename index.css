@@ -1,19 +1,42 @@
 html,
-body {
-	margin: 0;
-	padding: 0;
+body {	
+	margin: 0px;
+	padding: 0px;
+	background-color: grey;
+	color:  rgb(20, 20, 20);
+	font-family: Helvetica;	
 }
 .Wrap {
 	max-width: 1400px;
 	margin: 0 auto;
 }
-p1 {
-	text-align: center;
+h1 {
+	font-family: courier;
+	font-size: 20px;
+	color: Black;
 }
-
+h2 {
+	font-size: 18px;
+}
+h3 {
+	color:  rgb(20, 20, 20);
+	font-weight: bold;
+}
+h3:hover {
+	text-decoration: none;
+	color: red;	
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+a:hover {
+	text-decoration: none;
+	color: green;	
+}
 .Header {
 	width: 100%;
-	height: 130px;
+	height: 0px;
 	background-color:  #025059;
 	color: white;
 }
@@ -81,13 +104,14 @@ p1 {
 }
 @media screen and (min-width: 960px) {
     body {
-		background-color: white;
+		background-color: grey;
     }
 }  
 
-p1 {
+p {
 	font-family: 'Oswald', sans-serif;
-	text-align: center;
+	color: white;
+
 }
 
 .centerText {
@@ -96,10 +120,40 @@ p1 {
 }
 img {
   max-width: 10%;
-  margin-top: 30px;
-  margin-left: 515px;
+  
+  background-position: center;
+  border-radius: 50px;
 }
 
+#banner {
+  position: relative;
+  background: url('./images/showcase.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+#banner h1 {
+	color: white;
+}
+#banner p {
+  color: white;
+  font-size: 10px;
+  font-weight: lighter;
+  opacity: 0.7;
+}
+.card {
+	padding: 50px;
+	text-align: center;
+	color: white;
+}
+
+#footer{
+	background-color: black;
+	padding: 20px;
+	color: white;
+	text-align: center;
+}
 .CenterMe {
 	background-color: indigo;
 	color: #ebebeb;
