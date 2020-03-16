@@ -126,11 +126,9 @@ img {
 }
 
 #banner {
-  position: relative;
-  background: url('./images/showcase.jpg') no-repeat;
+  background: url('https://unsplash.it/1000/600?random');
   background-size: cover;
-  background-position: center;
-  padding: 150px 0;
+  padding: 200px 0;
   text-align: center;
 }
 #banner h1 {
