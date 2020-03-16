@@ -1,10 +1,9 @@
 html,
 body {	
-	margin: 0px;
-	padding: 0px;
-	background-color: grey;
+	background-color: rgb(240, 240, 240);	
 	color:  rgb(20, 20, 20);
 	font-family: Helvetica;	
+	margin: 0;
 }
 .Wrap {
 	max-width: 1400px;
@@ -19,7 +18,7 @@ h2 {
 	font-size: 18px;
 }
 h3 {
-	color:  rgb(20, 20, 20);
+	color: white;
 	font-weight: bold;
 }
 h3:hover {
@@ -83,6 +82,7 @@ a:hover {
 	color: white;
 	text-align: center;
 }	
+
 	
 	
 	
@@ -150,7 +150,16 @@ img {
 	background-color: black;
 	padding: 20px;
 	color: white;
+	font-size: 20px;
 	text-align: center;
+}
+
+#footer a {
+	font-size: 20px;
+	color: grey;
+}
+#footer a:hover {
+	color: white;
 }
 .CenterMe {
 	background-color: indigo;
