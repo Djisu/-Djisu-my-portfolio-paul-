@@ -119,8 +119,9 @@ img {
   border-radius: 50px;
 }
 img.medium {
-  max-width: 18rem;
-  width: 100%;
+  max-width: 10rem;
+  width: 30%;
+  align-items: center;
 }
 img.large {
   width: 100%;
@@ -147,12 +148,13 @@ img.large {
   border-radius: 0.5rem;
   margin: 1rem;
   color: black;
+  padding: 2rem;
 }
 .card-body {
-  padding: 1rem;
+  padding: 20rem;
 }
 .card-body > * {
-  margin: 0.5rem;
+  margin: 5.5rem;
 }
 
 #footer {
